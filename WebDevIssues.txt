@@ -1,0 +1,3 @@
+I can log into the kent main campus server, but not the stark one. 
+
+I was able to transfer a file, but I was 403'd in the browser. 
