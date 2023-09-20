@@ -1,0 +1,15 @@
+Function:
+create function dept_avg_salary(dept_name varchar(25))
+  return integer
+  begin
+  declare func_salary integer; 
+    select(*) salary into func_salary
+    from intructor
+    where instructor.dept_name = dept_name; 
+   AVG(func_salary)
+  return func_salary; 
+  end
+
+Function Call: 
+select * 
+from table(department('CompSci'))

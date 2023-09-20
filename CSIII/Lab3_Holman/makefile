@@ -1,13 +1,10 @@
 CFLAGS = -g -Wall
 
-main: main.o list.o
-	g++ $(CFLAGS) main.o list.o -o main
+main: main.o
+	g++ $(CFLAGS) main.o -o main
 
 main.o: main.cpp
-	g++ $(CFLAGS) -c main.cpp
-
-list.o: list.cpp list.h
-	g++ $(CFLAGS) -c list.cpp
+	g++ $(CFLAGS) -c main.cpp node.h linkedlist.h
 
 clean:
 	rm *.o main
