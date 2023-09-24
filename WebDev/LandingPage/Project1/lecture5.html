@@ -1,12 +1,12 @@
-<!DOCTYPE html> <!--screen shot the validated code for each page-->
-<html>
+<!DOCTYPE html>
+<html lang = "en">
 <head>
+    <meta charset = "UTF-8">
     <title>Lecture 5 - Ben Holman</title>
-    <header>
-        
-    </header>
-</head>	
+    <link rel= "stylesheet" href = "style/style.css">
+</head>
 <body>
+<header>
 <h1>Lecture 5 by Ben Holman</h1>
 <h3>Menu:</h3>
 <nav>
@@ -18,16 +18,65 @@
     <a href = "lab1.html">Lab 1</a>
     <hr>
 </nav>
-</body>
+</header>
 <article>
     <div>
     <section>
-        <p>Lecture 5</p>
+        <h2>HTTP:</h2>
+        <p><strong>Hypertext Transfer Protocol(HTTP)</strong> is a specific type of protocol that is essential for the Web to work. HTTP establishes a TCP connection 
+            from the client to the server. This connection is normally made through Port 80, which is the default port. Once the connection is established, the server can begin
+            to respond with Header, Response Code, and/or a message. The request messages used through HTTP are GET and POST. These request methods are used heavily in PHP.  
+        </p>
+        <h2>Web Browsers:</h2>
+        <p>
+            The <strong>Web Browser</strong> is the traditional method that a user would interact with a webpage. Users access and interact with everything on the webpage and web server 
+            without the need to download any additional software. When you type in a URL into the search bar, the page is fetched by the DNS. The web browser requests the html page for that URL
+            then it finds and puts together, in the correct order, all the pages, links, images etc through not only the initial html fetch, but numerous HTTP requests. Browsers use specific 
+            algorithms to correctly parse data and put the webpage together the way it was intended to look. This method is called "rendering" the webpage. Browsers also cache
+            specific settings and content from the downloaded page to the browser for quicker access at a later date. This can sometimes be reffered to as "cookies."
+        </p>
+        <h2>Web Servers:</h2>
+        <p><strong>Web Servers</strong> are computers whose job it is to handle incoming HTTP requests. Most web servers are not a single board computer like a consumer machine,
+            but many boards with sometimes different hardware (server specific CPUs like AMD's <a href = "https://www.amd.com/en/processors/epyc-server-cpu-family">EYPC</a> CPUs.)
+            this collection of servers in one location is called a <strong>Server Farm</strong>. These servers normally comprise of: 
+        </p>
+        <ul>
+            <li>an OS</li>
+            <li>Web Server Software</li>
+            <li>A Database (MySQL, MariahDB, SQL Server etc)</li>
+            <li>a scripting language to process incoming requests like PHP</li>
+        </ul>
+        <p>Some servers follow specfic Stacks. In this instance, a stack is referred to the types of software used for each part of the web server. Different OS', Database Software,
+            and scripting languages are used depending on which Stack you or your company is following. 
+        </p>
+        <figure>
+            <a href = "images/ServerFarm.jpg"></a>
+            <img src = "images/ServerFarm.jpg" alt = "Server Farm" title = "Server Farm">
+            <figcaption class = "source"><a href = "https://www.slideserve.com/Antony/presentation_60193">source:</a>Web Architecture, Slide 12</figcaption>
+    
+        </figure>
+        <h2>History of HTML:</h2>
+        <p><strong>HyperText Markup Language(HTML)</strong> is the language of the Web. A markup language is a way to emphasize or annotate a document. Like when you turn in a rough draft of 
+            a paper for school and get the red-marked feedback from your teacher. Markup is a way indicate specific information about the content on the webpage through the use of the tags.
+            this webpage that you're reading right now, if you use press CTRL+SHFT+i you'll bring up the web broswer development console and you'll be able to see the HTML of this page. 
+            You can see the HTML of every webpage you visit. 
+        </p>
+        <h4>The Early Days</h4>
+        <p>HTML was created by Tim Berners-Lee and Robert Cailliau between 1990 - 1991. The formal codification by the <strong>World Wide Web Consortium(W3C)</strong> was in 1995 - 1997.
+            XHTML was introdcued ans used in the late 90's. XHTML had stricter rules than regular HTML and the goal was to cut down on page rendering time by having the web 
+            developers create fewer errors and what was preferred, no errors. 
+        </p>
+        <h4>HTML5</h4>
+        <p>
+            Before 2009, a subsection of developers from Opera(Opera browser) and Mozilla(FireFox browser) created the <strong>Web HyperText Application Technoloogy Working Group(WHATWG)</strong>.
+            In 2009, the W3C ceased working on the development of XHTML 2.0 and instead decided to work on HTML5 instead which is the name the WHATWG gave their markup language.
+            
+        </p>
     </section>
     </div>
-    
 </article>
 <footer>
     <p>Copyright &copy; Ben Holman Web Programming Kent State Stark 2023</p>
 </footer>
+</body>
 </html>

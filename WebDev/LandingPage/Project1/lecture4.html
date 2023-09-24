@@ -1,12 +1,12 @@
-<!DOCTYPE html> <!--screen shot the validated code for each page-->
-<html>
+<!DOCTYPE html>
+<html lang = "en">
 <head>
+    <meta charset = "UTF-8">
     <title>Lecture 4 - Ben Holman</title>
-    <header>
-        
-    </header>
-</head>	
+    <link rel= "stylesheet" href = "style/style.css">
+</head>
 <body>
+<header>
 <h1>Lecture 4 by Ben Holman</h1>
 <h3>Menu:</h3>
 <nav>
@@ -18,15 +18,45 @@
     <a href = "lab1.html">Lab 1</a>
     <hr>
 </nav>
+</header>
 <article>
     <div>
     <section>
-        <p>Lecture 2</p>
+        <h2>Internet Protocols:</h2>
+        <p>Internet <strong>Protocols</strong> are rules used for communication between one or more machines.<strong>TCP/IP</strong> is an example of a protocol, but there are many others.
+           these protocols are written into every operating systems and are uniform so machines running different operating systems can still communicate with each other.
+           The protocols are designed into a stack. The stack can very between 4 layers and 8 layers, but it is all the preference of the operating system designer.
+           The layers are in order as follows: 
+        </p>
+        <ul>
+            <li>Link Layer</li>
+            <li>Internet Layer</li>
+            <li>Transport Layer</li>
+            <li>Application Layer</li>
+        </ul>
+        <h2>Domain Name System:</h2>
+        <p>In the days of the ARPANET users didn't want to type in a specific IP address to access pages. So researches using the ARPANET created <strong>Domains</strong> that would like to an IP address.  
+           As the ARPANET grew into the larger Internet, domains needed to be catagorized for quick and easy access. Enter <strong>Domain Name System(DNS)</strong>. A DNS is a specific web server that
+           takes incoming webpage requests and sends the correct webpage content from the accessed IP address back to the requesting user. For example: A user enters in www.google.com. 
+           that web request goes to a DNS server, that server searches the corresponding IP address, in this case being: 142.250.191.46, and sends that webpage content back to the user and google.com appears on your screen.
+            The DNS can be broken up into different levels that have different jobs and speed up searching and retrieving processes.
+        </p>
+        <figure>
+            <a href = "images/DNS.png"></a>
+            <img src = "images/DNS.png" alt = "DNS Server" title = "DNS Server">
+            <figcaption class = "source"><a href = "https://www.webnots.com/what-is-dns-and-how-it-works/">source:</a>What Is DNS And How It Works? webnots</figcaption>
+    
+        </figure>
+        <h2>URLs:</h2>
+        <p><strong>Uniform Resource Locators(URLs)</strong> allows the user to send a request for specific content from a web server. The URL's consist of he protocols to connect to the server
+            and the Domain name of the webpage trying to be accessed. URL's can be modified to access specific parts of webpages instead of going to the Landing Page of the website. For example:
+            you can go to YouTube with "youtube.com" as the URL and be directed to the home page. Or, you can be more specific and request "youtube.com/watch?v=[VIDEO_ID]" and get the video you're wanting to watch directly from the URL.
+        </p>
     </section>
     </div>
 </article>
-</body>
 <footer>
     <p>Copyright &copy; Ben Holman Web Programming Kent State Stark 2023</p>
 </footer>
+</body>
 </html>
