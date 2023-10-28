@@ -1,0 +1,36 @@
+
+li{
+    float: left;
+    display: inline;
+    padding: none;
+}
+
+a{
+    display: block; 
+    padding: 4px;
+}
+
+#copy{
+    font-style: italic;
+}
+/*
+#repeat{
+    width: 120px;
+    background-image: url('/images/star-orange.png');
+                      
+                      
+                      
+                      
+    background-repeat: space;
+   
+}
+*/
+#caption{
+    float:left;
+    display: inline; 
+}
+
+.shop{
+    float: left; 
+    display: block;
+}
