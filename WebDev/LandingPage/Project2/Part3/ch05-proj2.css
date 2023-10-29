@@ -78,16 +78,18 @@ h2 {
 }
 */
 
-button .edit{
+.edit{
    background-color: var(--color-primary-1-500);
-   border-radius: 5px;
+   border-radius:6px;
+   border-color: black;
    padding: 3px;
    text-align: center;
 }
 
-button .action{
+.action{
    background-color: white;
-   border-radius: 3px; 
+   border-radius: 6px; 
+   border-color: black;
    text-align: center;
    padding: 3px;
 }
