@@ -2,7 +2,7 @@
 li{
     float: left;
     display: inline;
-    padding: none;
+    padding: 0;
 }
 
 a{

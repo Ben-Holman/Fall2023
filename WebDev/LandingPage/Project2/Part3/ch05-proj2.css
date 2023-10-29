@@ -24,6 +24,7 @@ legend {
    font-weight: 500;
    font-size: 24px;
 }
+
 fieldset {
    margin: 0.5em auto;
    background-color: var(--color-neutral-050);
@@ -31,36 +32,19 @@ fieldset {
    width: 90%;
 }
 
-div#searchBox, div#settingsBox, div#paintingBox {
-   background-color: var(--color-neutral-100);
-
-}
-
-
-
-#paintingBox { 
-
-   background-color: var(--color-neutral-100);
-}
-
-
-
-table thead {
-   background-color: var(--color-primary-1-050);
-   background-color: var(--color-primary-1-900) ;
-   color: var(--color-primary-1-050);
-   margin: 0 auto;
-   width: 90%;
-   padding: 0.25em;
-   text-align: center;
-   font-weight: 500;
-   font-size: 24px;
-}
-
 table{
+   background-color: var(--color-neutral-100);
+   margin: 0 auto;
    border-collapse: collapse;
+   width: 90%;
 }
 
+
+.thead{
+   margin: auto 0;
+   background-color: var(--color-primary-1-100);
+   padding: 5px; 
+}
 
 caption {
    background-color: var(--color-primary-1-800);
@@ -68,7 +52,7 @@ caption {
 
 }
 
-thead{
+h2 {
    background-color: var(--color-primary-1-900) ;
    color: var(--color-primary-1-050);
    margin: 0 auto;
@@ -78,16 +62,90 @@ thead{
    font-weight: 500;
    font-size: 24px;
 }
+/*
+.content{
+   text-align: center;
+}
+
+.genre{
+   text-align:center;
+}
+
+/*
+#bulk{
+   padding: 5px; 
+   background-color: var(--color-neutral-100);
+}
+*/
+
+button .edit{
+   background-color: var(--color-primary-1-500);
+   border-radius: 5px;
+   padding: 3px;
+   text-align: center;
+}
+
+button .action{
+   background-color: white;
+   border-radius: 3px; 
+   text-align: center;
+   padding: 3px;
+}
+
+#bulk, #Genre { 
+   background-color: white; 
+   padding: 5px; 
+   display: inline; 
+}
+
+input#apply, input#filter{
+   padding: 10px; 
+   background-color: var(--color-primary-1-600); 
+   border-radius: 10px;
+   color: white; 
+}
+/*
+div#searchBox, div#settingsBox, div#paintingBox {
+   background-color: var(--color-neutral-100);
+   
+   padding: 10px; 
+    
+}
+*/
+
+#searchBox, #settingsBox, #paintingBox{
+   background-color: var(--color-neutral-100); 
+   padding: 10px; 
+}
+
+div#searchBox, div#settingsBox{
+   display: inline; 
+}
 
 #header{
    margin: 0.5em auto;
    background-color: var(--color-support-1-100);
    border: solid 1px var(--color-neutral-100);
    width: 90%;
-   font-weight: none;
+   font-weight: 1.0;
 }
 
+#painting{
+   margin: 0 auto; 
+   width: 90%; 
+   background-color: var(--color-primary-1-700);
+}
 
+.paintingBorder{
+   margin: 20px;
+   padding: 2px; 
+   border: 2px solid gray; 
+   border-spacing: 2px;
+   text-align:center;
+}
 
-
-
+#checkbox{
+   float: left;
+   width: 100px;
+   margin: 5px 10px 5px 10px;
+}

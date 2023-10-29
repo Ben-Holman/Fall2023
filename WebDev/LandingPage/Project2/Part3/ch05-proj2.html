@@ -5,87 +5,87 @@
    <title>Chapter 5</title>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="variables-palette-7.css" >   
-   <link rel="stylesheet" href="ch05-proj2.css" />
+   <link rel="stylesheet" href="ch05-proj2.css" >
 </head>
 <body>
-<form >
+<form action = "http://www.randyconnolly.com/tests/process.php" method = "get">
 <fieldset>
    <legend>Advanced Art Work Search</legend>
    
     <div id="searchBox">
-     <input type="text" id = "Search" name = "Search">
-     <label for ="Search">Search</label>
+     <input type="text" id = "Search" name = "Search" placeholder="Search titles">
     </div>   
     <div id="settingsBox">
-      <label for = "Settings">Subject:</label>
-      <input type = "radio" id = "Settings" name = "Subject" value = "History">
-      <input type = "radio" id = "Settings" name = "Subject" value = "Person">
-      <input type = "radio" id = "Settings" name = "Subject" value = "Landscape">
-      <select name = "Genre">
+      <label>Subject:</label>
+      <input type = "radio" id = "History" name = "Subject" value = "History">
+      <label for = "History">History</label>
+      <input type = "radio" id = "Person" name = "Subject" value = "Person">
+      <label for = "Person">Person</label>
+      <input type = "radio" id = "Landscape" name = "Subject" value = "Landscape">
+      <label for = "Landscape">Landscape</label>
+      <select id = "Genre">
          <option value = "Select Genre">Select Genre</option>
          <option value = "Realism">Realism</option>
          <option value = "Dutch Golden Age">Dutch Golden Age</option>
       </select>
       <input type = "submit" id = "filter" name = "filter" value = "Filter">
     </div>
-    <div>
-      <select id = "bulk">
+    <div id="paintingBox">
+       <select id = "bulk">
          <option value= "Bulk Actions">Bulk Actions</option>
          <option value= "Option 1">Option 1</option>
          <option value= "Option 2">Option 2</option>
          <option value= "Option 3">Option 3</option>
       </select>
-      <input type = "submit" id = "apply" name = "apply" value = "Apply To All">
-    </div>
-    <div id="paintingBox">
-
+      <input type = "submit" id = "apply" name = "actions" value = "Apply To All">
     </div> 
-</fieldset>  
-<table>
-   <thead>Paintings</thead>
-   <tr id = "header">
-   <th>Title</th>
-   <th>Artist</th>
-   <th>Year</th>
-   <th>Genre</th>
-   <th>Actions</th>
+</fieldset> 
+<h2>Paintings</h2>
+<table> 
+   <tr> 
+   <th class = "thead">Title</th>
+   <th class = "thead">Artist</th>
+   <th class = "thead">Year</th>
+   <th class = "thead">Genre</th>
+   <th class = "thead">Actions</th>
    </tr>
+   <tbody>
    <tr class = "content">
-      <td><input type = "checkbox" name “index[]” value=“10”><img src = "images/125010.jpg" height = 100 width = 100>Portrait of Alida Christina Assink</td>
+      <td><input type = "checkbox" name = “index[]” value=“1”><img class = "paintingBorder" src = "images/125010.jpg" height = 100 width = 100  alt = "Portrait of Alida Christina Assink">Portrait of Alida Christina Assink</td>
       <td>Kruseman, Jan</td>
       <td>1833</td>
       <td>Realism</td>
-      <td><img src = "images/edit.png"> <img src = "images/archive.png"> <img src = "images/delete.png"></td>
+      <td><button><img src = "images/edit.png" class = "edit" alt = "edit"></button> <button><img src = "images/archive.png" class = "action" alt = "archive"></button> <button><img src = "images/delete.png" class = "action" alt = "delete"></button></td>
    </tr>
    <tr class = "content">
-      <td><input type = "checkbox" name “index[]” value=“10”><img src = "images/125020.jpg" height = 100 width = 100>Portrait of William II, King Of The Netherlands</td>
+      <td><input type = "checkbox" name = "index[]" value=“2”><img class = "paintingBorder" src = "images/125020.jpg" height = 100 width = 100  alt = "Portrait of William II, King Of The Netherlands">Portrait of William II, King Of The Netherlands</td>
       <td>Kruseman, Jan</td>
       <td>1839</td>
       <td>Realism</td>
-      <td><img src = "images/edit.png"> <img src = "images/archive.png"> <img src = "images/delete.png"></td>
+      <td><button><img src = "images/edit.png" class = "edit" alt = "edit"></button> <button><img src = "images/archive.png" class = "action" alt = "archive"></button> <button><img src = "images/delete.png" class = "action" alt = "delete"></button></td>
    </tr>
    <tr class = "content">
-      <td><input type = "checkbox" name “index[]” value=“10”><img src = "images/130020.jpg" height = 100 width = 100>Three girls From The Amsterdam Orphanage</td>
+      <td><input type = "checkbox" name = “index[]” value=“3”><img class = "paintingBorder" src = "images/130020.jpg" height = 100 width = 100  alt = "Three girls From The Amsterdam Orphanage">Three girls From The Amsterdam Orphanage</td>
       <td>Schwartze, Therese</td>
       <td>1885</td>
       <td>Realism</td>
-      <td><img src = "images/edit.png"> <img src = "images/archive.png"> <img src = "images/delete.png"></td>
+      <td><button><img src = "images/edit.png" class = "edit" alt = "edit"></button> <button><img src = "images/archive.png" class = "action" alt = "archive"></button> <button><img src = "images/delete.png" class = "action" alt = "delete"></button></td>
    </tr>
    <tr class = "content">
-      <td><input type = "checkbox" name “index[]” value=“10”><img src = "images/127010.jpg" height = 100 width = 100>The Windmill at Wijk bij Duurstede</td>
+      <td><input type = "checkbox" name = “index[]” value=“4”><img class = "paintingBorder" src = "images/127010.jpg" height = 100 width = 100  alt = "The Windmill at Wijk bij Duurstede">The Windmill at Wijk bij Duurstede</td>
       <td>Ruisdael, Jacob van</td>
       <td>1670</td>
       <td>Dutch Golden Age</td>
-      <td><img src = "images/edit.png"> <img src = "images/archive.png"> <img src = "images/delete.png"></td>
+      <td><button><img src = "images/edit.png" class = "edit" alt = "edit"></button> <button><img src = "images/archive.png" class = "action" alt = "archive"></button> <button><img src = "images/delete.png" class = "action" alt = "delete"></button></td>
    </tr>
    <tr class = "content">
-      <td><input type = "checkbox" name “index[]” value=“10”><img src = "images/128010.jpg" height = 100 width = 100>Morning Ride Along The Beach</td>
+      <td><input type = "checkbox" name = “index[]” value=“5”><img class = "paintingBorder" src = "images/128010.jpg" height = 100 width = 100  alt = "Morning Ride Along The Beach">Morning Ride Along The Beach</td>
       <td>Anton, Mauve</td>
       <td>1876</td>
       <td>Realism</td>
-      <td><img src = "images/edit.png"> <img src = "images/archive.png"> <img src = "images/delete.png"></td>
+      <td><button><img src = "images/edit.png" class = "edit" alt = "edit"></button> <button><img src = "images/archive.png" class = "action" alt = "archive"></button> <button><img src = "images/delete.png" class = "action" alt = "delete"></button></td>
    </tr>
-
+</tbody>
 </table>
 </form>
 </body>
