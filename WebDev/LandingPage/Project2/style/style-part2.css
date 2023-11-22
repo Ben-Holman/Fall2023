@@ -2,7 +2,7 @@
     font-family: 'Merriweather'; 
 }
 body {
-    background-image: url(/images/art-background4.jpg);
+    background-image: url(images/art-background4.jpg);
     background-repeat:no-repeat;
     background-size:cover;
 }

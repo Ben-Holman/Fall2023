@@ -62,6 +62,12 @@ h2 {
    font-weight: 500;
    font-size: 24px;
 }
+
+tbody td{
+   border-bottom: 1px solid lightgray;
+   padding: 7px;
+}
+
 /*
 .content{
    text-align: center;
