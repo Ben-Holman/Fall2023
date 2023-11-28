@@ -14,15 +14,16 @@ template <typename T>
 class node
 { 
 	public: 
-	node(): next_(nullptr) {} 
+	node(): next_(nullptr) {}// sets the next pointer to null since there's no value initially 
 	
 	// functions can be inlined
+  // these 2 functions are another adding anoter layer of abstraction with the setter and getter
 	T getData()const
 	{
-		return data_;
+		return data_; 
 	} 
 
-	void setData(const T& data)
+	void setData(const T& data) // this function sets the T referece of the data and should not be modified so it's const
 	{
 		data_ = data;
 	} 
@@ -30,16 +31,16 @@ class node
 	//node* getNext() const; 
 	//void setNext(node* const next); 
   
-
+  // this is the same as the Data function, just a slightly different syntax 
   node<T>* getNext() const { 
     return next_; 
   }
 
 
-  void setNext(node* const next){
+  void setNext(node* const next){ // this makes sure the pointer is pointer to the correct value
     next_ = next;
   }
-
+// the private variables used in the setter and getter functions above
 	private: 
 	T data_; 
 	node* next_; 

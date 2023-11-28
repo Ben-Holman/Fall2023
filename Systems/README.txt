@@ -1,13 +1,15 @@
-Ben Holman Assignment 2:
+Ben Holman Midterm-2
 
+INSTRUCTIONS: 
 
-COMPILATION INSTRUCTIONS:
+EXERCISE 1:
+  commands: 'make' ./main file1.txt th
 
-each directory contains one makefile. 
+EXERCISE 2: 
+  commands: 'make' ./main file1.txt 3 
+  the C and Object files are different names for this one because I had 2 terminals open working on the same file so I renamed it to not get any weird errors. 
 
-run the 'make' command in the terminal to generate the object files and executable
+EXERCISE 3:
+  commands: 'make' ./main file1.txt 3 15
 
-run the 'make clean' command to remove the object and executable files.
-
-these programs were written and compiled using the Ubuntu gcc compiler version 12.3.0
- 
+these are the files and parameters I tested with as given in the outline. 

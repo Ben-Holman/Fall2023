@@ -1,0 +1,3 @@
+this is a test to see if the program for exercise 2 works. 
+I want to have at least one instanfe of 2 words occured in the file and 
+I have achieved that. 
