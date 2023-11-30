@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
+    <title>Contact Us - RGYOG</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href = "/style/style.css" rel = "stylesheet" type = "text/css">
     <link href = "/style/Contact.css" rel = "stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
     <script type="text/javascript" language="javascript" src="/js/login.js"></script>
   </head>
 <body>
@@ -45,7 +49,7 @@
       
       
           <div class="form-box">
-            <h1>Login</h1>
+            <h1>Feedback Form</h1>
           
             <form method="get" action="/html/index.html" id="sampleForm">
           
@@ -56,25 +60,32 @@
             <!--<input type="text" name="phone" id="phone" placeholder="Phone" />-->
             <label id="icon" for="email"><i class="fa fa-envelope fa-fw"></i></label>
             <input type="text" name="email" id="email" placeholder="Email" >    
-            <label id="icon" for="pass"><i class="fa fa-key fa-fw"></i></label>
-            <input type="password" name="pass" id="pass" placeholder="Password" >
+           
+            <label for="exampleFormControlTextarea2"></label>
+            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder = "Feedback"></textarea>
           
-             <button type="submit" ><i class="fa fa-reply fa-fw"></i>Login</button> 
+             <button type="submit" ><i class="fa fa-reply fa-fw"></i>Send Feedback</button> 
              
             </form>
           </div>
-                
           <div id="errors" class="visible"></div>  
         </div> 
-      </div>   
+      </div>  
+      <br>
+      <div class = "address">
+      <h3>Mailing Address:</h3>
+      <p>(This is a P.O. box)</p>
+      <p>1234 North Street</p>
+      <p>Southern Territories, NA 44509</p>
+      </div> 
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Shop</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Play Game</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Contact Us</a></li>
+          <li class="nav-item"><a href="/html/index.html" class="nav-link px-2 text-light">Home</a></li>
+          <li class="nav-item"><a href="/html/inventory.html" class="nav-link px-2 text-light">Shop</a></li>
+          <li class="nav-item"><a href="/html/game.html" class="nav-link px-2 text-light">Play Game</a></li>
+          <li class="nav-item"><a href="/html/ContactUs.html" class="nav-link px-2 text-light">Contact Us</a></li>
         </ul>
-        <p class="text-center text-light">© 2023 Company, Inc</p>
+        <p class="text-center text-light">© 2023 Regift Your Old Gift LLC</p>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

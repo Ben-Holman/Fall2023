@@ -2,41 +2,52 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+}
 
-  *{
-    padding: 0; 
-     margin: 0; 
-     box-sizing: border-box;
- }
+*{
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+}
  
- .nav-link{
-     font-family: 'Lobster', sans-serif;
-     font-size: 30px;
-     margin-right: 30px;
-     margin-left: 30px;
- }
+#cyber{
+  padding-bottom: 1%;
+  padding-top: 0.5%;
+}
+
+.nav-link{
+  font-family: 'Lobster', sans-serif;
+  font-size: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
  
- .nav-link:hover{
-     text-decoration: underline;
-     color: white;
- }
- .container{
-     background-color: black;
-     color: white;
-     height: 100%;
- }
+.nav-link:hover{
+  text-decoration: underline;
+  color: white;
+}
+.container{ 
+  color: white;
+  height: 100%;
+  padding-top: 1%; 
+}
  
- body{
-     background-color: #333333;
- }
+body{
+  background-color: #333333;
+}
  
- .center { /*CODE FROM https://www.w3schools.com/howto/howto_css_image_center.asp*/
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 75%;
- }
+.center { /*CODE FROM https://www.w3schools.com/howto/howto_css_image_center.asp*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+h1{
+  margin-top: 15px;
+  font-weight: bold; 
+  font-family: 'Agbalumo', sans-serif;
+}
   /*
   body {
     height: 100vh;

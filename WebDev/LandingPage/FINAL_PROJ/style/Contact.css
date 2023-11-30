@@ -1,3 +1,7 @@
+.container{
+    padding-top: 1%;
+}
+
 .form-body{
     padding: 10%;
     padding-top: 10%;
@@ -6,4 +10,51 @@
     border-radius: 30px;
     border-spacing: 5em;
     background-color: rgb(59, 56, 56);
+}
+
+.address{
+    color: white; 
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+#email{
+    margin: 50px;
+    margin-left: -9px;
+    position: absolute;
+    vertical-align: auto;
+
+}
+
+
+
+#exampleFormControlTextarea2{
+    margin: 80px;
+    margin-left: 4px;
+}
+
+#name{
+    position: absolute;
+    vertical-align: auto;
+}
+
+button{
+    margin: 4px;
+    padding: 10px;
+    background-color:black;
+    border-radius: 5%;
+    border-color:white; 
+    color:white;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+button:hover{
+    background-color:white; 
+    color: black;
+    border-color: gray;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Agbalumo', sans-serif;
 }

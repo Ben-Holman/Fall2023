@@ -16,6 +16,12 @@ SHOPPING CART BUTTON CODE: https://codeconvey.com/30-bootstrap-5-buttons-with-ic
 
 FOOTER CODE FROM https://getbootstrap.com/docs/5.1/examples/footers/
 
+TEXT AREA CODE FROM  https://mdbootstrap.com/docs/b4/jquery/forms/textarea/ 
+
+FAVICON CODED FROM https://stackoverflow.com/questions/48956465/favicon-standard-2023-svg-ico-png-and-dimensions 
+
+HHORIZONTAL CARDS: https://www.youtube.com/watch?v=1dXj3wX6rMQ 
+
 Images used: 
 
 Login Banner ad: vecteezy.com
@@ -23,3 +29,6 @@ Login Banner ad: vecteezy.com
 Cyber Monday Ad in 'Play Game': https://www.canva.com/web-ads/templates/leaderboard-ads/
 
 shopping cart image: https://www.onlinewebfonts.com/icon/152008
+
+
+WEBSITE INSIRED BY: https://junkfoodarcades.com/
