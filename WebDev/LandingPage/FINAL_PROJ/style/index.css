@@ -1,0 +1,29 @@
+.history{
+    background-color:rgb(59, 56, 56); 
+    border-width: 5px;
+    border-style:solid;
+    border-color: white;
+    border-radius: 30px;
+}
+
+p{
+    font-size:large; 
+}
+
+.big{
+    font-size: large;
+    font-weight: bold;
+}
+
+.bigger{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
