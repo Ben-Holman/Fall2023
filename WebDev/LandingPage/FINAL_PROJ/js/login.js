@@ -1,9 +1,10 @@
+
 function init() {
     document.getElementById("sampleForm").addEventListener("submit", checkForEmptyFields);    
 }
 /* initialize handlers once page is ready */
 window.addEventListener("load", init);
-/* ensures form fields are not empty */
+// ensures form fields are not empty 
 function checkForEmptyFields(e) {
     var errorArea = document.getElementById("errors");
     errorArea.className = "hidden";
@@ -30,3 +31,23 @@ function checkForEmptyFields(e) {
 
     }    
 }
+
+const loginForm = document.getElementById("sampleForm");
+const error = document.getElementById("danger");
+const success = document.getElementById("succ");
+const SubmitBtn = document.getElementById("submitBtn");
+
+
+SubmitBtn.addEventListener("click", (e) =>{
+    e.preventDefault(); 
+    const email = loginForm.email.value; 
+    const password = loginForm.pass.value;
+    if((email === "admin") && (password === "admin")){
+        success.classList.remove("visually-hidden");
+        error.classList.add("visually-hidden");
+    }
+    else{
+        error.classList.remove("visually-hidden");
+        success.classList.add("visually-hidden");
+    }
+});

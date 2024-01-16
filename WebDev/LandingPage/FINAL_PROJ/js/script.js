@@ -2,7 +2,8 @@
 /* 
 
 1. WORD COUNTER
-2. 
+2. SCROLL TEXT
+3. SEARCH
 
 */
 

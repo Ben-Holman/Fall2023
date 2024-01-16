@@ -6,7 +6,7 @@ TABLE && STYLING FROM https://getbootstrap.com/docs/4.0/content/tables/
 
 3 COLUMN RESPONSIVE CODE FROM https://stackoverflow.com/questions/43064966/bootstrap-3-column-responsive
 
-LOGIN CODE FROM LAB11 HANDS-ON
+LOGIN CODE FROM LAB11 HANDS-ON && https://www.youtube.com/watch?v=q7eRQJMoRxo
 
 STORE FRONT SEARCHBAR CODE FROM https://getbootstrap.com/docs/4.0/components/navbar/
 

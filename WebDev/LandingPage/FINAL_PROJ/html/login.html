@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - RGYOG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href = "/style/login.css" rel = "stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -40,33 +43,41 @@
   <div class="container">
   <div class="form-body">
 
-
+    <div class="text-center">
     <div class="form-box">
+      <div class="alert alert-danger visually-hidden" role="alert" id = "danger">
+        Invalid Email Or Password. Please Try Again
+      </div>
+      <div class="alert alert-success visually-hidden" role="alert" id = "succ">
+        Successfully Logged Into RGYOG!
+      </div>
       <h1>Login</h1>
     
-      <form method="get" action="/html/index.html" id="sampleForm">
+      <form method="get" action="/html/index.html" id="sampleForm" name = "loginForm">
     
       <hr>
       <!--<label id="icon" for="name"><i class="fa fa-user fa-fw"></i></label>
       <input type="text" name="name" id="name" placeholder="Name" /> -->
-      <label id="icon" for="email"><i class="fa fa-phone fa-fw"></i></label>
+      <label id="icon" for="email"></label>
       <!--<input type="text" name="phone" id="phone" placeholder="Phone" />-->
-      <label id="icon" for="email"><i class="fa fa-envelope fa-fw"></i></label>
-      <input type="text" name="email" id="email" placeholder="Email" />    
+      <label id="icon" for="email"></label>
+      <input type="text" name="email" id="email" placeholder="Email" class = "form-control mb-1"/>    
       <br>
       <br>
-      <label id="icon" for="pass"><i class="fa fa-key fa-fw"></i></label>
-      <input type="password" name="pass" id="pass" placeholder="Password" />
+      <label id="icon" for="pass"></label>
+      <input type="password" name="pass" id="pass" placeholder="Password" class = "form-control mb-1"/>
         <br>
         <br>
-       <button type="submit" ><i class="fa fa-reply fa-fw"></i>Login</button> 
+       <button type="submit" id = "submitBtn" class = "btn-block">Login</button> 
        
       </form>
     </div>
-          
-    <div id="errors" class="visible"></div>  
+       
+    <div id="errors" class="visible"></div>
+
   </div> 
-  </div>   
+  </div>
+</div>   
   <img src = "/images/BannerAd1.jpg" height="480" width = "950" class = "center" id = "ad"><!--center class reference in login.css-->
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
